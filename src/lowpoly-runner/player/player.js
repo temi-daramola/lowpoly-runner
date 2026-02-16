@@ -30,7 +30,7 @@ export const INIT_PLAYER = (Scene, Physics) => {
   const loader = new GLTFLoader();
   const dracoLoader = new DRACOLoader();
   // Set the path to the Draco decoder files (adjust if needed)
-  dracoLoader.setDecoderPath('/node_modules/three/examples/jsm/libs/draco/');
+  dracoLoader.setDecoderPath('/libs/draco/');
   loader.setDRACOLoader(dracoLoader);
   
   loader.load(
